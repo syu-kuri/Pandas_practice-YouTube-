@@ -11,11 +11,12 @@ df_people = pd.read_csv('people.csv')
 # unique()でユニークな値を抽出
 # df_people.unique()ではエラーが起こる：uniqueは一次元にしか適用できない
 # カラムを1つずつ指定してunique()を定義する
-nationality_unique = df_people['nationality'].unique()
-print(nationality_unique)
 
-name_unique = df_people['name'].unique()
-print(name_unique)
+df_nationality_unique = df_people['nationality'].unique()
+print(df_nationality_unique)
 
-age_unique = df_people['age'].unique()
-print(age_unique)
+df_name_unique = df_people['name'].unique()
+print(df_name_unique)
+
+df_age_unique = df_people['age'].unique()
+print(df_age_unique)
