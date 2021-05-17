@@ -10,7 +10,6 @@ df_people = pd.read_csv('people.csv')
 # ---------------
 # unique()でユニークな値を抽出
 # df_people.unique()ではエラーが起こる：uniqueは一次元にしか適用できない
-
 # カラムを1つずつ指定してunique()を定義する
 nationality_unique = df_people['nationality'].unique()
 print(nationality_unique)
