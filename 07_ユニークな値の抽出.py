@@ -20,3 +20,13 @@ print(df_name_unique)
 
 df_age_unique = df_people['age'].unique()
 print(df_age_unique)
+
+# カラムを1つずつ指定してunique()を定義する
+nationality_unique = df_people['nationality'].unique()
+print(nationality_unique)
+
+name_unique = df_people['name'].unique()
+print(name_unique)
+
+age_unique = df_people['age'].unique()
+print(age_unique)
