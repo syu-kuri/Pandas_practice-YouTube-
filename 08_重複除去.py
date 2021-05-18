@@ -1,4 +1,4 @@
-# dfd_people のnationalityの列に対し、重複のある値の行を除去した
+# df_people のnationalityの列に対し、重複のある値の行を除去した
 # DataFrameを取得してください
 
 
